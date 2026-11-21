@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: netvision-ai-server
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
